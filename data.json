@@ -1,0 +1,19 @@
+{
+    "products":[
+        {
+            "SN":1,
+            "Name":"Apple",
+            "Quantity":"1",
+            "Unit":"Kg",
+            "Department":"Fruits",
+            "Notes":"Fresh"
+        },{
+            "SN":2,
+            "Name":"Onion",
+            "Quantity":"1",
+            "Unit":"Kg",
+            "Department":"Vegetables",
+            "Notes":"Medium Size"
+        }
+    ]
+}

@@ -10,6 +10,22 @@
 }
 
 .mainbg{
-    background-color: rgb(255, 204, 255);
+    background-color: rgb(255, 255, 255);
     height: 480px;
+}
+
+.refresh{
+    background-color: transparent;
+    border: none;
+}
+.btnsize{
+    font-size: 75%;
+}
+.addbtn{
+    background-color: rgb(48, 102, 202);
+    border: none;
+    border-radius: 50%;
+}
+.addbtn:hover{
+    background-color: rgb(74, 137, 255);
 }
