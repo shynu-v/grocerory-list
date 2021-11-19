@@ -36,7 +36,7 @@ function getdata(){
 
 function strike(othis) {
     othis.parentNode.parentNode.style.textDecoration = othis.checked? 'line-through':'none';
-    othis.parentNode.parentNode.style.color = othis.checked? '#B40000':'black';
+    othis.parentNode.parentNode.style.color = othis.checked? '#B40000':'white';
    
 }
 
