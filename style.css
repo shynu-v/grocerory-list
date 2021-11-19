@@ -2,15 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body{
+   background: url("1.jpg");
+   background-size: cover;
+}
 .head{
+    display: flex;
+    justify-content: center;
     background-color: #062855;
-    text-align: center;
     color: white;
     padding: 1%;
 }
 
 .mainbg{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.747);
+    overflow: auto;
     
 }
 
@@ -21,10 +27,17 @@
 .btnsize{
     font-size: 75%;
 }
+
+.addbt{
+    float: right;
+    padding-top: 1%;
+    padding-right: 10%;
+}
 .addbtn{
     background-color: rgb(48, 102, 202);
     border: none;
     border-radius: 50%;
+   
 }
 .addbtn:hover{
     background-color: rgb(74, 137, 255);
@@ -72,4 +85,5 @@
 }
 .tdbtn{
     border: none;
+    background-color: transparent;
 }

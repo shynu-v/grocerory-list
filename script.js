@@ -1,6 +1,6 @@
 let response =[];
 let products =[];
-var list ="";
+
 
 window.addEventListener("load",load);
 
@@ -18,7 +18,7 @@ function load(){
 }
 
 function getdata(){
-    
+    var list ="";
     for(i=0;i<products.length;i++){
         list +=`<tr>
                 <td>${products[i].SN}</td>
@@ -28,7 +28,7 @@ function getdata(){
                 <td>${products[i].Department}</td>
                 <td>${products[i].Notes}</td>
                 <td><input type="checkbox" onchange="strike(this)"></td>
-                <td><button class="tdbtn" onclick="rowdel(this)"><i class="far fa-trash-alt"></i></button></td>
+                <td><button class="tdbtn" onclick="rowdel(this)"><i style="color:white;" class="far fa-trash-alt"></i></button></td>
                 </tr>`
     }
     document.getElementById("data").innerHTML=list;

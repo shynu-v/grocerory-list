@@ -9,11 +9,11 @@
     <title>Grocery List</title>
 </head>
 <body>
-    <div class="head">
+    <div class="d-flex head" style="width: 100%;">
         <h2>Grocery List <button class="refresh" onclick="load()"><i class="fas fa-redo btnsize"></i></button></h2>
     </div>
-    <div class="container mainbg">
-        <table class="table table-striped mt-5" id="mytable">
+    <div class="container mainbg mt-3">
+        <table class="table mt-2" id="mytable"style="color:white;">
             <thead>
                 <th>SI.No</th>
                 <th>Name</th>
@@ -25,11 +25,11 @@
             </thead>
             <tbody id="data"></tbody>
         </table>
-        <div style="float: right;">
-            <button id="myBtn" class="addbtn" onclick="adddata()">
-                <i class="fas fa-plus p-2" style="font-size: 130%;"></i>
-            </button>
-        </div>
+    </div>
+    <div class="addbt">
+        <button id="myBtn" class="addbtn" onclick="adddata()">
+            <i style="color: white;" class="fas fa-plus p-2" style="font-size: 130%;"></i>
+        </button>
     </div>
     <div id="myModal" class="modal">
         <div class="modal-content d-block">
